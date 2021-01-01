@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#009688"
+>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+>
+          <Button
+
+              android:layout_width="wrap_content"
+              android:layout_height="70dp"
+              android:text="Our step to protect Corona Virus"
+              android:textSize="20sp"
+              android:background="#FFC107"
+              android:padding="20dp"
+              android:layout_gravity="center"
+
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="There is currently no vaccine to prevent coronavirus disease 2019 (COVID-19).But we should follow some rules"
+              android:textSize="30sp"
+              android:textColor="#000000"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="20dp"
+android:textIsSelectable="true"
+              />
+          <Button
+
+              android:layout_width="wrap_content"
+              android:layout_height="70dp"
+              android:text="1.Clean Your hands often"
+              android:textSize="20sp"
+              android:background="#FFC107"
+              android:padding="20dp"
+              />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:src="@drawable/cleanhands"
+    android:scaleType="fitCenter"
+    android:layout_margin="10dp"
+
+    />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:text="1.Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing."
+              android:textColor="#000000"
+              android:textSize="20sp" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="2.soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry."
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="3.Avoid touching your eyes, nose, and mouth with unwashed hands"
+              />
+          <Button
+
+              android:layout_width="wrap_content"
+              android:layout_height="70dp"
+              android:text="2.Avoid close contact"
+              android:textSize="20sp"
+              android:background="#FFC107"
+              android:padding="20dp"
+              />
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:src="@drawable/socialdistance"
+              android:scaleType="fitCenter"
+              android:layout_margin="10dp"
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="1.Avoid close contact with people who are sick"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="2.Stay home as much as possible"
+              />
+          <Button
+
+              android:layout_width="wrap_content"
+              android:layout_height="70dp"
+              android:text="3.Use Mask"
+              android:textSize="20sp"
+              android:background="#FFC107"
+              android:padding="20dp"
+              />
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:src="@drawable/mask"
+              android:scaleType="fitCenter"
+              android:layout_margin="10dp"
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="2.The cloth face cover is meant to protect other people in case you are infected"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="2.The cloth face cover is meant to protect other people in case you are infected"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="3.Do NOT use a facemask meant for a healthcare worker."
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="4.Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing."
+              />
+          <Button
+
+              android:layout_width="wrap_content"
+              android:layout_height="70dp"
+              android:text="4.Clean and disinfect"
+              android:textSize="20sp"
+              android:background="#FFC107"
+              android:padding="20dp"
+              />
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:src="@drawable/clean"
+              android:scaleType="fitCenter"
+              android:layout_margin="10dp"
+              />
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="1.Clean AND disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks."
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="2.If surfaces are dirty, clean them. Use detergent or soap and water prior to disinfection."
+              />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textColor="#000000"
+              android:layout_margin="10dp"
+              android:text="3.Then, use a household disinfectant. Most common EPA-registered household disinfectant"
+              />
+
+
+      </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>

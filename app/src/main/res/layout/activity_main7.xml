@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IEDCR HOTLINE number : "
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+8801944333222"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+8801937000011"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+8801937110011"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+8801927711784"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+8801927711785"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+8801550064901"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To visit IEDCR website :"
+        android:textSize="25sp"
+        android:textColor="#000000"
+
+        />
+    <Button
+        android:id="@+id/go"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="CLICK HERE"
+        android:background="#FF9800"
+        />
+
+
+</LinearLayout>

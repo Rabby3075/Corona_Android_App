@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="messege">Do you want to exit?</string>
+</resources>

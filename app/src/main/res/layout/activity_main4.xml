@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+<Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+    android:text="How it spread"
+    android:textSize="20sp"
+    android:background="#FFC107"
+    android:padding="20dp"
+    android:layout_gravity="center"
+
+        />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:textColor="#000000"
+                            android:text="The new corona Virus is a respiratory virus which spreads primarily through droplets generated when an infected person cough or sneezes through droplets of saliva or discharge from the nose.  "
+/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/crowd"
+
+                            />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:background="#FF9800"
+                            android:padding="10dp"
+                            android:text="Can Coronavirus disease spread through air?"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The virus that causes Covid-19 is mainly transmitted through droplets generated when an infected person cough , sneezes or speaks. These droplets are too heavy to hang  in the air . They quickly fall on floors or surfaces. You can Infected by breathing in the virus if you are within 1 metre of a person who has Covid-19 or by touching a contaminated surface and then touching your eyes, nose or mouth Before washing your hands "
+                            android:textSize="30sp"
+                            android:textColor="#000000"
+                                />
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                                android:text="How long does the coronavirus last on surfaces?"
+                            android:background="#FF9800"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            android:padding="10dp"
+                                />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:textColor="#000000"
+                            android:text="It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days."
+                                />
+                </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

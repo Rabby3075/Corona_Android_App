@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+<ScrollView
+    android:id="@+id/scroll1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#009688"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/caption"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="About Covid-19"
+            android:textSize="20sp"
+            android:background="#FFC107"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment."
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:padding="5dp"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wuhan"
+                android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+         android:text="The disease was first identified in December 2019 in Wuhan, the capital of China's Hubei province, and has since spread globally, resulting in the ongoing 2019-20 corona virus pandemic. The first confirm case of what was then an unknown coronavirus was traced back to November 2019 in Hubei."
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
